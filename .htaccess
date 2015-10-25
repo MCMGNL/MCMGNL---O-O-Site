@@ -1,11 +1,4 @@
-ErrorDocument 404 /errors/404.html
-ErrorDocument 410 /errors/404.html
-ErrorDocument 500 /errors/500.html
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} !^mcmgnl.me$ [NC]
 RewriteRule ^(.*)$ http://mcmgnl.me/$1 [L,R=301]
-RewriteCond %{HTTP_HOST} ^62\.163\.12\.37
-RewriteRule (.*) http://mcmgnl.me/$1 [R=301,L]
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
-RewriteRule .* ? [F,L]
