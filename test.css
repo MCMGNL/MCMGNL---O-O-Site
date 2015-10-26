@@ -1,7 +1,7 @@
 body  {
     font-family:Verdana,sans-serif;font-size:1.8em;
 	background-color:#F1F7EA;
-	font-size:100%;
+	font-size:92%;
 }
 header,footer,section,article {
     border:1px solid grey;
@@ -41,7 +41,7 @@ section {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #333;
+  color: red;
   background:#555 url(img/noise.png);
   overflow: hidden; 
 }
@@ -61,13 +61,12 @@ section {
 	color: #fff;
 }
 @media screen and (max-width: 768px) {
-	#main {
-	clear:both;
-	width:100%;		 
-}
+	body{
+		font-size: 92%;
+	}
 @media screen and (max-width: 480px) {
 	body{
-		font-size: 120%;
+		font-size: 92%;
 	}
 	#menu li {
 	  display:block;
@@ -80,6 +79,9 @@ section {
 	#menu ul {
 		padding: 0;
 		margin: 0 0 20px 0;
+	}
+	section{
+		width: 80%
 	}
 	.img2{
 	display: none;
