@@ -14,6 +14,9 @@ header,footer,section,article {
 .h31{
 	display:none;
 }
+.onedrive-link{
+	display: none;
+}
 header,footer {
 	text-align: center;
     color:white;
@@ -91,6 +94,12 @@ section {
 }
 .iframeboor{
 	display:none;
+}
+.onedrive-iframe{
+	display:none;
+}
+.onedrive-link{
+	display: initial;
 }
 .a1{
 	
