@@ -9,13 +9,13 @@ header,footer,section,article {
     background-color:white;
 }
 .linkboor{
-	display: none;
+	display:none;
 }
 .h31{
 	display:none;
 }
-.onedrive-link{
-	display: none;
+#onedrivelink{
+	display:none;
 }
 header,footer {
 	text-align: center;
@@ -84,7 +84,7 @@ section {
 		margin: 0 0 20px 0;
 	}
 	section{
-		width: 80%
+		width: 90%
 	}
 	.img2{
 	display: none;
@@ -95,10 +95,10 @@ section {
 .iframeboor{
 	display:none;
 }
-.onedrive-iframe{
+#onedriveiframe{
 	display:none;
 }
-.onedrive-link{
+#onedrivelink{
 	display: initial;
 }
 .a1{
