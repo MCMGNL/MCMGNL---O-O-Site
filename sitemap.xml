@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
+<urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
@@ -9,66 +9,59 @@
 <!-- aangeboden door www.metatags.nl -->
 
 <url>
-    <loc>http://mcmgnl.me</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/boor.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/boor.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/hoogheemraadschap.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/hoogheemraadschap.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/blijdorp.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/blijdorp.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/errors/errorpage.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/errors/errorpage.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/errors/404.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/404.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
 <url>
-    <loc>http://mcmgnl.me/errors/500.html</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://mcmgnl.me/500.html</loc>
 
+    <lastmod>2015-11-07</lastmod>
+    <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>  
-<url>
-    <loc>http://mcmgnl.me/&amp;</loc>
-    <lastmod>2015-10-18</lastmod>
-    <changefreq>hourly</changefreq>
-
-    <priority>0.5</priority>
-</url>  
-</urlset>      
+</urlset>
