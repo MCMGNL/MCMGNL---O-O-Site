@@ -15,6 +15,9 @@ iframe{
 .menu1{
 	display:none;
 }
+.link{
+    color:black;
+}
 .row:after {
     content: "";
     clear: both;
@@ -54,7 +57,9 @@ iframe{
     .col-12 {width: 100%;}
 }
 html {
-    font-family: "Lucida Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 .menu1{
 /*Navigatie menu*/
@@ -90,9 +95,10 @@ html {
 }
 .header {
 	text-align: center;
-    background-color: #444;
     color: #ffffff;
     padding: 15px;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
 }
 .menu ul {
     list-style-type: none;
@@ -102,7 +108,7 @@ html {
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color :#086A87;
+    background-color :#157978;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
