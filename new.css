@@ -28,6 +28,9 @@ iframe{
     padding: 15px;
     width: 100%;
 }
+body{
+    margin: 0;
+}
 @media only screen and (min-width: 600px) {
     .col-s-12 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -97,7 +100,7 @@ html {
 	text-align: center;
     color: #ffffff;
     padding: 15px;
-    background-color: #444;
+    background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
 }
 .menu ul {
     list-style-type: none;
@@ -134,9 +137,12 @@ html {
 	border:1px solid grey;
 }
 .footer {
-    background-color: #444;
+    background: linear-gradient(90deg,#3A6073 5%, #16222A 100%);
+    position: absolute;
+    bottom: 0;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
-    padding: 15px;
+    padding: 17.5px;
+    width: 100%;
 }
