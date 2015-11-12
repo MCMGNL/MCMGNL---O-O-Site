@@ -138,7 +138,6 @@ html {
 }
 .footer {
     background: linear-gradient(90deg,#3A6073 5%, #16222A 100%);
-    position: absolute;
     bottom: 0;
     color: #ffffff;
     text-align: center;
