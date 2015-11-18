@@ -44,6 +44,7 @@ body{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    
 }
 @media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}
@@ -96,11 +97,14 @@ html {
 	background: rgb(51,51,51);
 	color: #fff;
 }
+.main{
+	padding-bottom: 15px;
+}
 .header {
 	text-align: center;
     color: #ffffff;
     padding: 15px;
-    background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
+    background: #01A9DB;
 }
 .menu ul {
     list-style-type: none;
@@ -135,13 +139,4 @@ html {
 .aside img {
 	border-radius:5px;
 	border:1px solid grey;
-}
-.footer {
-    background: linear-gradient(90deg,#3A6073 5%, #16222A 100%);
-    bottom: 0;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    padding: 17.5px;
-    width: 100%;
 }
