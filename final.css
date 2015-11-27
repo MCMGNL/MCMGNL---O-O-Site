@@ -38,7 +38,7 @@ html, body {
 
 }
 section,article {
-	padding:35px;
+	padding:35px 35px 35px 35px;
     background-color:white;
 }
 
@@ -86,7 +86,7 @@ section {
     border:1px solid grey;
 	width:65%;
 	max-width:1280px;
-	margin: 20px auto;
+	margin: 10px auto;
     background-color:#ddd;
 } 
 article {
@@ -147,11 +147,7 @@ article {
     #mobileheader #MobileLogo {
 		font-size: 50px;
 		padding: 0px 0 3px 20px;
-		color: White;
-		margin: 0;
-        font-weight: bold;
-		font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-		font-weight: 900;
+		font-weight: bold;
     }
     #MobileLogo {
         
@@ -242,11 +238,7 @@ article {
     #mobileheader #MobileLogo {
 		font-size: 50px;
 		padding: 0px 0 3px 20px;
-		color: White;
-		margin: 0;
-        font-weight: bold;
-		font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-		font-weight: 900;
+		font-weight: bold;
     }
     #MobileLogo {
         
