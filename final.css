@@ -8,7 +8,6 @@ http://www.cssstickyfooter.com
 * {
     margin:0;
     padding:0;
-    font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
     box-sizing: border-box;
 }
 
@@ -23,6 +22,9 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
     background-position: center top;
     margin: auto;
 }
+body{
+    background: #fff;
+}
 
 img {
     max-width: 100%;
@@ -35,6 +37,7 @@ html, body {
 	margin: 0;
 	width: 100%;
     font-size:92%;
+    font-family: "Open Sans",Arial,Verdana,sans-serif;
 
 }
 section,article {
@@ -47,7 +50,7 @@ section,article {
 }
 
 #header {
-    background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
+    background: #009999;
     color: white;
     border-bottom: 3px solid lightgreen;
 }
@@ -72,7 +75,6 @@ section,article {
 #Logo{
     font-size: 4em; /*Font size*/
 	font-weight: bold;
-	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
 	font-weight: 900;
 	margin-left: 6.8%;
 	margin-bottom: 0.3%;
@@ -94,22 +96,26 @@ article {
 	border-radius:5px;
 }
 #footer {
+    border-top: 1px solid #eee;
     position: relative;
 	margin-top: -100px; /* negative value of footer height */
 	height: 100px;    
-    background: linear-gradient(90deg,#3A6073 5%, #16222A 100%);
+    background: #4A4A4A;
 	clear:both;
     text-align: center;
-    font-size: 15px;
     text-decoration: none; 
-    color: white;
+    color: #fff;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1.5;
+font-size: 14px;
 }
 #footer a{
     text-decoration: none; 
-    color: white;
+    color: #fff;
 }
 #footer a:hover{
-    color: lightgreen;
+    color: skyblue;
 }
 #footer p{
     padding-top: 20px;
@@ -123,6 +129,10 @@ article {
     width: 50%;
     height: 500px;
     margin: auto;
+}
+.adminiframe {
+    width: 100%;
+    height: 700px;
 }
 @media screen and (max-width: 700px) {
     body{
@@ -140,7 +150,7 @@ article {
         text-decoration: none;
     }
     #mobileheader ul {
-        background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
+        background: #009999;
     }
     #mobileheader li{
         display: inline-block;
@@ -158,7 +168,6 @@ article {
         color: lightgreen;
     }
     #pull-li {
-        font-family: "Arial",sans-serif;
         font-size: 40px;
         padding-right: 10px;
         float: right;
@@ -184,7 +193,6 @@ article {
         text-decoration: underline;
     }
     #mobilelinks2 ul {
-        background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
     }
     #mobilelinks2 li{
         text-align: right;
@@ -195,14 +203,12 @@ article {
 		border-bottom: 1px solid White;
         font-size: 2em;
         font-weight: bold;
-        font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
         margin: auto;
 	}
     #nc5{
         width: 80%;
         font-size: 2em;
         font-weight: bold;
-        font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
         margin: auto;
     }
     .iframeboor{
@@ -213,6 +219,9 @@ article {
     width: 100%;
     height: 300px;
     margin: auto;
+    }
+    .logiframe {
+        display: none;
     }
 }
 @media screen and (max-width: 1641px) {
@@ -231,7 +240,7 @@ article {
         text-decoration: none;
     }
     #mobileheader ul {
-        background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
+        background: #009999;
     }
     #mobileheader li{
         display: inline-block;
@@ -249,7 +258,6 @@ article {
         color: lightgreen;
     }
     #pull-li {
-        font-family: "Arial",sans-serif;
         font-size: 40px;
         padding-top: 1px;
         padding-right: 20px;
@@ -259,7 +267,6 @@ article {
         color: lightgreen
     }
     #mobilelinks {
-        border-bottom: 3px solid lightgreen;
     }
     section{
         width: 100%   
@@ -274,7 +281,6 @@ article {
         color: lightgreen;
     }
     #mobilelinks2 ul {
-        background: linear-gradient(90deg, #16222A 5%, #3A6073 100%);
     }
     #mobilelinks2 li{
         text-align: right;
@@ -285,16 +291,17 @@ article {
 		border-bottom: 2px solid lightgreen;
         font-size: 2em;
         font-weight: bold;
-        font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
         margin: auto;
 	}
     #nc5{
         width: 80%;
         font-size: 2em;
         font-weight: bold;
-        font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
         margin: auto;
         
+    }
+    .logiframe {
+        display: none;
     }
 }
 
