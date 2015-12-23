@@ -1,10 +1,3 @@
-/*  
-Sticky Footer Solution
-by Steve Hatcher 
-http://stever.ca
-http://www.cssstickyfooter.com
-*/
-
 * {
     margin:0;
     padding:0;
@@ -30,6 +23,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+a{
+    text-decoration: none; 
+}
+a:hover{
+    color: skyblue;
+}
 
 html, body {
     height: 100%;
@@ -53,6 +52,7 @@ section,article {
     background: #009999;
     color: white;
     border-bottom: 3px solid lightgreen;
+    margin-bottom: 0.5%;
 }
 #header li{
     display: inline-block;
@@ -86,10 +86,10 @@ section,article {
 	padding-bottom: 100px;}  /* must be same height as the footer */
 
 section {
-    border:1px solid grey;
+    border:0px solid grey;
 	width:65%;
 	max-width:1280px;
-	margin: 10px auto;
+	margin: 0 auto 10px;
     background-color:#ddd;
 } 
 article {
@@ -314,16 +314,9 @@ width:0;
 margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
 
-
-/* IMPORTANT
-
-You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
-
-<!--[if !IE 7]>
-	<style type="text/css">
-		#wrap {display:table;height:100%}
-	</style>
-<![endif]-->
-
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
 */
-
